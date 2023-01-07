@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: #cccccc;
+}
+.header {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+p {
+  font-size: 2.5em;
+  font-family: Roboto;
+}
+input {
+  width: 300px;
+  height: 30px;
+  /* border: 2px solid black; */
+
+}
+#navbutton {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: #2b78e4;
+  /* border: 2px solid black; */
+  box-shadow: 3px 3px black;
+}
+.mainbox {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+}
+
+.bigbox {
+  height: 500px;
+  width: 65%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.bigtopbox {
+height: 45%;
+width: 100%;
+border: 4px solid black;
+display: flex;
+justify-content: space-between;
+}
+.ninjatopleft {
+  height: 100%;
+  width: 25%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn {
+  height: 35px;
+  width: 100px;
+  border: 2px solid black;
+  color: black;
+  background-color: #ffd966;
+  margin-top: 10px;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 1.5em;
+  color: rgb(85, 80, 80);
+}
+h4 {
+  font-size: 1.2em;
+  color: rgb(85, 80, 80);
+}
+
+.ninjatopright {
+  height: 100%;
+  width: 70%;
+  /* border: 2px solid black; */
+}
+.ninjutsu{
+text-align: center;
+margin: 75px auto;
+font-size: 1.5em;
+}
+u{
+  color: #2b78e4;
+}
+
+.bigdownbox {
+  height: 45%;
+  width: 100%;
+  border: 4px solid black;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.sidebox {
+  height: 200px;
+  width: 30%;
+  border: 4px solid black;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidetop {
+  height: 45%;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.sidetopcornerbox {
+  width: 100%;
+  font-size: 1.7em;
+}
+em {
+  font-weight: bold ;
+}
+.sidebottom {
+  height: 45%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greenbutton {
+  height: 40px;
+  width: 80%;
+  color: black;
+  border: 3px solid black;
+  background-color: #93c47d;
+  box-shadow: 3px 3px black;
+  margin-right: 30px;
+}
